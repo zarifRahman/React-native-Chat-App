@@ -1,7 +1,7 @@
 # React-native-Chat-App
   ## Topics
   ### Typescript
-  ### AsyncStorage storage
+  ### AsyncStorage
   ### FlatList and ScrollView
   ### Animations
   ### WebSocket
