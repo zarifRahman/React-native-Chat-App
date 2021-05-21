@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/For github/React-native-Chat-App/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "234"
+                    },
+                    "to": {
+                        "startLines": "365",
+                        "startColumns": "4",
+                        "startOffsets": "25683",
+                        "endLines": "368",
+                        "endColumns": "12",
+                        "endOffsets": "25863"
+                    }
+                },
                 {
                     "source": "/home/circle/.gradle/caches/transforms-2/files-2.1/baebfc24ee3e9d675a4614c1f27f118a/jetified-appcompat-resources-1.1.0/res/values/values.xml",
                     "from": {
@@ -61,43 +80,7 @@
                     }
                 },
                 {
-                    "source": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/For github/React-native-Chat-App/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "234"
-                    },
-                    "to": {
-                        "startLines": "365",
-                        "startColumns": "4",
-                        "startOffsets": "25683",
-                        "endLines": "368",
-                        "endColumns": "12",
-                        "endOffsets": "25863"
-                    }
-                },
-                {
-                    "source": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/For github/React-native-Chat-App/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "45",
-                        "endOffsets": "57"
-                    },
-                    "to": {
-                        "startLines": "295",
-                        "startColumns": "4",
-                        "startOffsets": "19232",
-                        "endColumns": "45",
-                        "endOffsets": "19273"
-                    }
-                },
-                {
-                    "source": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/For github/React-native-Chat-App/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -111,6 +94,23 @@
                         "startOffsets": "17090,17154",
                         "endColumns": "63,68",
                         "endOffsets": "17149,17218"
+                    }
+                },
+                {
+                    "source": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "45",
+                        "endOffsets": "57"
+                    },
+                    "to": {
+                        "startLines": "295",
+                        "startColumns": "4",
+                        "startOffsets": "19232",
+                        "endColumns": "45",
+                        "endOffsets": "19273"
                     }
                 },
                 {

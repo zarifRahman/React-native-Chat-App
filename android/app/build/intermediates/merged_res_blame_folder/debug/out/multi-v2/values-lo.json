@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/For github/React-native-Chat-App/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+            "outputFile": "/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/home/circle/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/values-lo/values-lo.xml",
