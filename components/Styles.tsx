@@ -1,8 +1,8 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: '#ff1',
+    backgroundColor: "#e0d75a",
     flex: 1,
   },
 
@@ -11,14 +11,14 @@ export default StyleSheet.create({
   personalInfoContainer: {
     flex: 1,
     padding: 10,
-    justifyContent: 'space-between',
-    alignItems: 'stretch',
+    justifyContent: "space-between",
+    alignItems: "stretch",
   },
 
-  logo: {width: 'auto', resizeMode: 'contain'},
+  logo: { width: "auto", resizeMode: "contain" },
 
   enterYourName: {
-    alignSelf: 'center',
+    alignSelf: "center",
   },
   imageBox: {
     width: 256,
@@ -30,7 +30,7 @@ export default StyleSheet.create({
   },
 
   nameTextInput: {
-    borderColor: 'rgba(52, 52, 52, 0.8)',
+    borderColor: "rgba(52, 52, 52, 0.8)",
     borderWidth: 1,
     borderRadius: 4,
     fontSize: 18,
@@ -41,18 +41,18 @@ export default StyleSheet.create({
     width: 100,
     borderRadius: 20,
     marginTop: 15,
-    alignSelf: 'center',
+    alignSelf: "center",
   },
 
   //chat
   sendSection: {
-    flexDirection: 'row',
+    flexDirection: "row",
     margin: 15,
   },
 
   chatTextInput: {
     marginRight: 5,
-    borderColor: 'rgba(52, 52, 52, 0.8)',
+    borderColor: "rgba(52, 52, 52, 0.8)",
     borderWidth: 1,
     borderRadius: 4,
     flexGrow: 1,
@@ -60,8 +60,8 @@ export default StyleSheet.create({
   },
 
   chatItemHeader: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
+    flexDirection: "row",
+    flexWrap: "wrap",
   },
 
   flatListItem: {
@@ -72,7 +72,7 @@ export default StyleSheet.create({
     marginBottom: 7,
     marginLeft: 16,
     marginRight: 16,
-    borderColor: 'green',
+    borderColor: "green",
   },
 
   chatText: {
@@ -81,8 +81,8 @@ export default StyleSheet.create({
 
   smallItalicText: {
     fontSize: 16,
-    fontStyle: 'italic',
-    alignSelf: 'center',
+    fontStyle: "italic",
+    alignSelf: "center",
   },
 
   avatarSmall: {

@@ -39,7 +39,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       {activeComponent}
-      <StatusBar backgroundColor="green" barStyle="dark-content" />
+      <StatusBar backgroundColor="#fff" barStyle="dark-content" />
     </SafeAreaView>
   );
 }
