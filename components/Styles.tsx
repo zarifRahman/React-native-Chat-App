@@ -21,7 +21,7 @@ export default StyleSheet.create({
     alignSelf: "center",
   },
   imageBox: {
-    width: 156,
+    width: 56,
     height: 156,
   },
 
