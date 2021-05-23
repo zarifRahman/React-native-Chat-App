@@ -21,8 +21,8 @@ export default StyleSheet.create({
     alignSelf: "center",
   },
   imageBox: {
-    width: 256,
-    height: 256,
+    width: 156,
+    height: 156,
   },
 
   nameText: {
