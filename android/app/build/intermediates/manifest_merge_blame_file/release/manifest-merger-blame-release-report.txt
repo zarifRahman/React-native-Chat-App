@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:6:5-24:19
+14        android:name="com.myapp.MainApplication"
+14-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:7:7-38
+15        android:allowBackup="false"
+15-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:11:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] /home/circle/.gradle/caches/transforms-2/files-2.1/3975ffd70914deb17405b14313b8e4ba/core-1.3.1/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:8:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:10:7-52
+20        android:theme="@style/AppTheme" >
+20-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:12:7-38
+21        <activity
+21-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:13:7-23:18
+22            android:name="com.myapp.MainActivity"
+22-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:14:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+23-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:16:9-86
+24            android:label="@string/app_name"
+24-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:15:9-41
+25            android:launchMode="singleTask"
+25-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:17:9-40
+26            android:windowSoftInputMode="adjustResize" >
+26-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:18:9-51
+27            <intent-filter>
+27-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:19:9-22:25
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:20:13-65
+28-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:20:21-62
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:21:13-73
+30-->/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/src/main/AndroidManifest.xml:21:23-70
+31            </intent-filter>
+32        </activity>
+33
+34        <provider
+34-->[:react-native-image-picker] /home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+35            android:name="com.imagepicker.ImagePickerProvider"
+35-->[:react-native-image-picker] /home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-63
+36            android:authorities="com.myapp.imagepickerprovider"
+36-->[:react-native-image-picker] /home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-71
+37            android:exported="false"
+37-->[:react-native-image-picker] /home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+38            android:grantUriPermissions="true" >
+38-->[:react-native-image-picker] /home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+39            <meta-data
+39-->[:react-native-image-picker] /home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:70
+40                android:name="android.support.FILE_PROVIDER_PATHS"
+40-->[:react-native-image-picker] /home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+41                android:resource="@xml/imagepicker_provider_paths" />
+41-->[:react-native-image-picker] /home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-67
+42        </provider>
+43    </application>
+44
+45</manifest>

@@ -1,0 +1,4 @@
+#Sun May 23 13:38:13 BDT 2021
+base.0=/home/circle/zarif_personal/2.PluralSight/3.Building a Chat Application with React Native/React-native-Chat-App/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
