@@ -1,5 +1,5 @@
 # React-native-Chat-App
-  ## Topics
+  ## Things that are implemented in this app
   ### Typescript
   ### AsyncStorage
   ### FlatList and ScrollView
